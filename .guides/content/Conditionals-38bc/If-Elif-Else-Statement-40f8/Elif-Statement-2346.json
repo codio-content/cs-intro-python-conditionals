@@ -1,0 +1,22 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "code/selection/elif-statement.py",
+			"action": "open"
+		}
+	],
+	"id": "2346cee8-f990-4185-c5bc-21f003baae15",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Elif Statement",
+	"type": "page"
+}

@@ -1,0 +1,18 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": true,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "CyberSecurity",
+	"order": [
+		"Conditionals-38bc"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": true,
+	"theme": "light",
+	"title": "Chapter 3 - Conditionals",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}

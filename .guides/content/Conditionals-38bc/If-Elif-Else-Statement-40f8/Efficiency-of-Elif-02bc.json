@@ -1,0 +1,22 @@
+{
+	"chapter": false,
+	"closeTerminalSession": true,
+	"contentType": "markdown",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		},
+		{
+			"path": "code/selection/elif-efficiency.py",
+			"action": "open"
+		}
+	],
+	"id": "02bc11bc-2a5c-59a2-bb83-17e740ec73bc",
+	"layout": "2-panels",
+	"learningObjectives": "",
+	"path": [],
+	"teacherOnly": false,
+	"title": "Efficiency of Elif",
+	"type": "page"
+}

@@ -1,0 +1,75 @@
+{
+	"source": {
+		"name": "elif efficiency reading question",
+		"showName": false,
+		"instructions": "**Fill in the blanks of the passage below.**",
+		"showValues": true,
+		"text": "A series of elif statements can be more efficient that a series of if statements because the <<<elif>>> statements will <<<stop>>> as soon as there is a <<<true>>> boolean expression. The <<<if>>> statement, however, will keep going even if there is a <<<true>>> boolean expression.",
+		"distractors": "",
+		"guidance": "A series of elif statements can be more efficient that a series of if statements because the **elif** statements will **stop** as soon as there is a **true** boolean expression. The **if** statement, however, will keep going even if there is a **true** boolean expression.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 1,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				},
+				{
+					"name": "Content",
+					"value": "Conditionals"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "Elif statement"
+				}
+			],
+			"files": [
+				"code/selection/elif-efficiency.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "code/selection/elif-efficiency.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT understand why elif statements can be more efficient",
+		"tokens": {
+			"blank": [
+				"elif",
+				"stop",
+				"true",
+				"if",
+				"true"
+			],
+			"text": [
+				"A series of elif statements can be more efficient that a series of if statements because the ",
+				0,
+				" statements will ",
+				0,
+				" as soon as there is a ",
+				0,
+				" boolean expression. The ",
+				0,
+				" statement, however, will keep going even if there is a ",
+				0,
+				" boolean expression."
+			],
+			"regexPositions": []
+		}
+	},
+	"taskId": "fill-in-the-blanks-2639153112",
+	"type": "fill-in-the-blanks"
+}

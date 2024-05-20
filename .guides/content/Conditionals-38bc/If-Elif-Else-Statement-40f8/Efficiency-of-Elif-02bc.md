@@ -4,7 +4,10 @@
 
 Take a look at the image below. It shows two programs that do the same thing, calculate a letter grade based on a numeric value. The blue arrows show the flow of the program, and the red star shows what happens when the boolean expression is true.
 
-![Elif Efficiency](.guides/images/efficiency-elif.png)
+![The image shows two similar code blocks.
+The block on the left has only if-statements. The arrows connect all the if-statements from the top downward. There is a star next to the print statement "You got a B". This code is provided later on this page in the section "Series of If Statements"
+The code block on the right has if, elif, else statements. The arrows connect them from the top downward. There is a star next to the print statement "You got a B". But there is no arrow connecting the else-statement that goes after the starred line. This code is provided later on this page in the section "Series of Elif Statements"](.guides/images/efficiency-elif.png)
+
 
 All of the if statements will run, even when the letter grade has been determined. The elif statements will stop once one of them is true. Use the code visualizers below to see how Python steps through the two programs below.
 
@@ -15,7 +18,7 @@ grade = 82
 if grade < 60:
     print("You got an F.")
 if grade >= 60 and grade < 70:
-    print("You got a C.")
+    print("You got a D.")
 if grade >= 70 and grade < 80:
     print("You got a C.")
 if grade >= 80 and grade < 90:

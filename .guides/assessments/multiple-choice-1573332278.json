@@ -1,0 +1,74 @@
+{
+	"source": {
+		"name": "elif syntax reading question",
+		"showName": false,
+		"instructions": "**Which of the following `elif` statements is correct?**",
+		"multipleResponse": false,
+		"isRandomized": true,
+		"answers": [
+			{
+				"_id": "2be02c67-04df-db32-be6d-7617db6ffa3b",
+				"correct": false,
+				"answer": "`elif:`"
+			},
+			{
+				"_id": "251bb5fc-5dc0-b4a9-154f-50dc2eb5f6a3",
+				"correct": false,
+				"answer": "`else if a < 10:`"
+			},
+			{
+				"_id": "1c8847df-f40d-5a0c-44c8-d42ce4495a2e",
+				"correct": true,
+				"answer": "`elif a < 10:`"
+			},
+			{
+				"_id": "36a614ca-33a3-78af-dc62-7eb54cf48c6a",
+				"correct": false,
+				"answer": "`elif a < 10`"
+			}
+		],
+		"guidance": "The `elif` statement is followed by a boolean expression and a `:`. That is why `elif a < 10:` is the correct answer.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 1,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				},
+				{
+					"name": "Content",
+					"value": "Conditionals"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "Elif statement"
+				}
+			],
+			"files": [
+				"code/selection/elif-syntax.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "code/selection/elif-syntax.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "2",
+		"learningObjectives": "SWBAT understand syntax of the elif statement"
+	},
+	"taskId": "multiple-choice-1573332278",
+	"type": "multiple-choice"
+}

@@ -1,0 +1,45 @@
+{
+	"source": {
+		"name": "elif formative assessment",
+		"showName": false,
+		"instructions": "**Rearrange the code blocks below to build a proper elif statement. ++Hint++, indent code when necessary.**",
+		"initial": "my_var = 7\nif my_var &lt; 5:\n    print(&quot;Less than 5.&quot;)\nelif my_var &lt;= 10:\n    print(&quot;Between 5 and 10.&quot;)\nelse:\n    print(&quot;Greater than 10.&quot;)",
+		"options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"show_feedback\":true}",
+		"grader": "1",
+		"guidance": "Start by declaring the variable. You cannot use a variable before creating it. Elif statements must have an if statement before it, so the if statement comes next. After that comes the elif statement. The else statement must come after the elif statement.\n\n```python-hide-clipboard\nmy_var = 7\nif my_var < 5:\n    print(\"Less than 5.\")\nelif my_var <= 10:\n    print(\"Between 5 and 10.\")\nelse:\n    print(\"Greater than 10.\")\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 1,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				},
+				{
+					"name": "Content",
+					"value": "Conditonals"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "Elif statement"
+				}
+			],
+			"files": [
+				"code/selection/elif-efficiency.py"
+			],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT construct an elif statement"
+	},
+	"taskId": "parsons-puzzle-3606655636",
+	"type": "parsons-puzzle"
+}

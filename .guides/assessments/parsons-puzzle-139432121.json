@@ -1,0 +1,43 @@
+{
+	"source": {
+		"name": "elif formative assessment 2",
+		"showName": false,
+		"instructions": "**Assume the following code:**\n\n```python-hide-clipboard\nif my_var < 1:\n    print(\"my_var is less than 1\")\nif my_var == 1:\n    print(\"my_var is 1\")\nif my_var > 1:\n    print(\"my_var is greater than 1\")\n```\n\n**Drag the code blocks into the box below to create an equivalent program that uses elif statements instead of if statements. ++Hint++, not all of the code blocks will be used.**\n",
+		"initial": "if my_var &lt; 1:\n    print(&quot;my_var is less than 1&quot;)\nelif my_var == 1:\n    print(&quot;my_var is 1&quot;)\nelse:\n    print(&quot;my_var is greater than 1&quot;)\nelse my_var &gt; 1:  #distractor\nelse if my_var == 1:  #distractor",
+		"options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"show_feedback\":true,\"trashId\":\"sortableTrash\"}",
+		"grader": "1",
+		"guidance": "All of the print statements are correct, so they can all be used. The `if` statement should be first, followed by the `elif` statement. `elif` is an abbreviation for `else if`, so the statement with `else if` can be ignored. Finally, the program should end with `else`, which does not require a boolean expression.\n\n```python-hide-clipboard\nif my_var < 1:\n    print(\"my_var is less than 1\")\nelif my_var == 1:\n    print(\"my_var is 1\")\nelse:\n    print(\"my_var is greater than 1\")\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 1,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				},
+				{
+					"name": "Content",
+					"value": "Conditionals"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "Elif statements"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "4",
+		"learningObjectives": "SWBAT create an elif statement"
+	},
+	"taskId": "parsons-puzzle-139432121",
+	"type": "parsons-puzzle"
+}

@@ -1,0 +1,50 @@
+{
+	"source": {
+		"name": "elif statement reading question",
+		"showName": false,
+		"instructions": "**Rearrange the code blocks below into the correct order when evaluating a conditional.**",
+		"initial": "if\nelif\nelse",
+		"options": "{\"sortableId\":\"sortable\",\"max_wrong_lines\":10,\"exec_limit\":2500,\"can_indent\":true,\"x_indent\":50,\"lang\":\"en\",\"show_feedback\":true}",
+		"grader": "1",
+		"guidance": "The `if` statement is always evaluated first. Next, the `elif` statement is evaluated. You can have several `elif` statements, but they must come after the `if` statement. Finally, the `else` statement is evaluated. `if` and `elif` statements cannot appear after `else` unless it is a different conditional.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"points": 1,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				},
+				{
+					"name": "Content",
+					"value": "Conditionals"
+				},
+				{
+					"name": "Programming Language",
+					"value": "Python"
+				},
+				{
+					"name": "Category",
+					"value": "If-elif-else statement"
+				}
+			],
+			"files": [
+				"code/selection/elif-statement.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "code/selection/elif-statement.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "3",
+		"learningObjectives": "SWBAT identify the proper order of the conditional keywords if, elif,and else"
+	},
+	"taskId": "parsons-puzzle-2680130036",
+	"type": "parsons-puzzle"
+}
